@@ -3,7 +3,7 @@ Capitulo 1: Jugetes
 
 -----------------
 
-Es verdad que eso es un atomo?
+Es verdad que eso es un átomo?
   `atom`
 
 Sí,
@@ -11,7 +11,7 @@ Sí,
 
 -----------------
 
-Es verdad que eso es un atomo?
+Es verdad que eso es un átomo?
   `pavo`
 
 Sí,
@@ -19,7 +19,7 @@ Sí,
 
 -----------------
 
-Es verdad que eso es un atomo?
+Es verdad que eso es un átomo?
    `1492`
 
 Sí,
@@ -27,7 +27,7 @@ Sí,
 
 -----------------
 
-Es verdad que eso es un atomo?
+Es verdad que eso es un átomo?
    `u`
 
 Sí,
@@ -35,7 +35,7 @@ Sí,
 
 -----------------
 
-Es verdad que eso es un atomo?
+Es verdad que eso es un átomo?
    `*abc$`
    
 Sí,
@@ -44,31 +44,31 @@ Sí,
 -----------------
 
 Es verdad que eso es una lista?
-   `(atomo)`
+   `(átomo)`
 
 Sí,
-   porque `(atomo)` es un atomo adentro de parentesis.
+   porque `(átomo)` es un átomo adentro de parentesis.
 
 -----------------
 
 Es verdad que eso es una lista?
-   `(atomo pavo o)`
+   `(átomo pavo o)`
 
 Sí,
-   porque eso es un coleccion de atomos adentro de parentesis.
+   porque eso es un coleccion de átomos adentro de parentesis.
 
 -----------------
 
 Es verdad que eso es una lista?
-   `(atomo pavo) o`
+   `(átomo pavo) o`
 
 No,
-   porque eso es actualmente dos expresiones-S no adentro de parentesis. El primer es una lista de dos atomos, y la segunda es un atomo.
+   porque eso es actualmente dos expresiones-S no adentro de parentesis. El primer es una lista de dos átomos, y la segunda es un átomo.
 
 -----------------
 
 Es verdad que eso es una lista?
-   `((atomo pavo) o)`
+   `((átomo pavo) o)`
 
 Sí,
    porque los dos expressiones-S ahora son adentro de parentesis.
@@ -79,7 +79,7 @@ Es verdad que eso es un expresión-S?
    `xyz`
 
 Sí,
-   porque todos atomos son expresiónes-S.
+   porque todos átomos son expresiónes-S.
 
 -----------------
 
@@ -139,7 +139,7 @@ Sí,
 
 -----------------
 
-Es verdad que eso es un atomo?
+Es verdad que eso es un átomo?
    `()`
 
 No,
@@ -158,7 +158,7 @@ Sí,
 Que es el `car` de `l` cuando `l` es el argumento `(a b c)`?
 
 `a`,
-    porque `a` es el primer atomo de esta lista.
+    porque `a` es el primer átomo de esta lista.
 
 -----------------
 
@@ -172,7 +172,7 @@ Que es el `car` de `l` cuando `l` es `((a b c) x y z)`?
 Que es el `car` de `l` cuando `l` es `salchicha`?
 
 no responde,
-    porque no puede preguntar por el `car` de un atomo.
+    porque no puede preguntar por el `car` de un átomo.
 
 -----------------
 
@@ -234,7 +234,7 @@ que es `(cdr l)` cuando `l` es `((x) t r)`
 Que es `(cdr a)` cuando `a` es `salchichas`
 
 No responde,
-    no puede preguntar por el `cdr` de un atomo.
+    no puede preguntar por el `cdr` de un átomo.
 
 -----------------
 
@@ -267,7 +267,7 @@ Que es `(cdr (cdr l))` cuando `l` es `((b)(x y)((c)))`
 Que es `(cdr (car l))` cuand `l` es `(a (b (c)) d)`
 
 No responde,
-   porque `(car l)` es un atomo, y `cdr` solo tiene definicion por listas. Veas La Regla de Cdr.
+   porque `(car l)` es un átomo, y `cdr` solo tiene definicion por listas. Veas La Regla de Cdr.
 
 -----------------
 
@@ -283,7 +283,7 @@ Que acepta `cdr` por un argumento?
 
 -----------------
 
-Que es el `cons` de el atomo `a` y la lista `l` cuando `a` es `mani` y `l` es `(manteca y marmelada)`. Eso puede ser escrito "(cons a l)". leas como "cons el atomo a encima la lista l".
+Que es el `cons` de el átomo `a` y la lista `l` cuando `a` es `mani` y `l` es `(manteca y marmelada)`. Eso puede ser escrito "(cons a l)". leas como "cons el átomo a encima la lista l".
 
 `(mani manteca y marmelada)`
     porque `cons` construye una lista. El primer argumento es en el frente de nueva lista.
@@ -379,7 +379,7 @@ Falso,
 Es `(null? a)` verdad o falso cuando `a` es `spaghetti`
 
 No responde,
-    porque no puedes preguntar `null?` de un atomo.
+    porque no puedes preguntar `null?` de un átomo.
     
 -----------------
 
@@ -388,7 +388,7 @@ La Regla de Null?
 
 -----------------
 
-Es verdad o falso que `s` es un atomo cuando `s` es `Harry`
+Es verdad o falso que `s` es un átomo cuando `s` es `Harry`
 
 Verdad,
     porque `Harry` es un hilo de caracteres iniciando con una letra.
@@ -398,7 +398,7 @@ Verdad,
 Es `(atom? s)` verdad o falso cuando `s` es `Harry`
 
 Verdad,
-    porque `(atom? s)` es otra forma de preguntar "Es `s` un atomo?"
+    porque `(atom? s)` es otra forma de preguntar "Es `s` un átomo?"
 
 -----------------
 
@@ -418,7 +418,7 @@ Acepta un argumento. El argumento puede ser cualquier expresión-S.
 Es `(atom? (car l))` verdad o falso cuando `l` es `(Harry tiene una pila de manzanas)`
 
 Verdad,
-    porque `(car l)` es `Harry`, y `Harry` es un atomo.
+    porque `(car l)` es `Harry`, y `Harry` es un átomo.
 
 -----------------
 
@@ -431,48 +431,48 @@ Falso.
 Es `(atom? (cdr l))` verdad o falso cuando `l` es `(Harry)`
 
 Falso,
-    porque la lista `()` no es un atomo.
+    porque la lista `()` no es un átomo.
 
 -----------------
 
 Es `(atom? (car (cdr l)))` verdad o falso cuando `l` es `(uno dos tres cuatro)`
 
 Verdad,
-   porque `(cdr l)` es `(dos tres cuatro)` y `(car (cdr l))` es `dos`. `dos` es un atomo.
+   porque `(cdr l)` es `(dos tres cuatro)` y `(car (cdr l))` es `dos`. `dos` es un átomo.
 
 -----------------
 
 Es `(atom? (car (cdr l)))` verdad o falso cuando `l` es `(uno (dos tres) cuatro)`
 
 Falso,
-    porque `(cdr l)` es `((dos tres) cuatro)`, y `(car (cdr l))` es `(dos tres)`. `(dos tres)` es una lista, no un atomo.
+    porque `(cdr l)` es `((dos tres) cuatro)`, y `(car (cdr l))` es `(dos tres)`. `(dos tres)` es una lista, no un átomo.
 
 -----------------
 
-Verdad o falso, `a1` y `a2` son lo mismo atomo cuando `a1` es `Harry` y `a2` es `Harry`
+Verdad o falso, `a1` y `a2` son lo mismo átomo cuando `a1` es `Harry` y `a2` es `Harry`
 
 Verdad,
-   porque `a1` es el atomo `Harry` y `a2` es el atomo `Harry`.
+   porque `a1` es el átomo `Harry` y `a2` es el átomo `Harry`.
 
 -----------------
 
 Is `(eq? a1 a2)` verdad o falso cuando `a1` es `Harry` y `a2` es `Harry`
 
 Verdad,
-    porque `(eq? a1 a2)` es otra forma de preguntar, "`a1` y `a2` son lo mismo non-numero atomo?"
+    porque `(eq? a1 a2)` es otra forma de preguntar, "`a1` y `a2` son lo mismo non-numero átomo?"
     
 -----------------
 
 Es `(eq? a1 a2)` verdad o falso cuando `a1` es `margarina` y `a2` es `mantequilla`?
 
 False,
-    porque `a1` y `a2` son atomos diferentes.
+    porque `a1` y `a2` son átomos diferentes.
     
 -----------------
 
 Cuantos argumentos acepta `eq?` y que son?
 
-Acepta dos argumentos. Los dos necesita ser atomos, y no pueden ser numeros.
+Acepta dos argumentos. Los dos necesita ser átomos, y no pueden ser numeros.
 
 -----------------
 
@@ -498,7 +498,7 @@ La Regla de Eq?
 Es `(eq? (car l) a)` verdad o falso cuando `l` es `(Mary tiene carne de vaca)` y `a` es `Mary`
 
 Verdad,
-    porque `(car l)` es el atomo `Mary`, y el argumento `a` es tambien el atomo `Mary`.
+    porque `(car l)` es el átomo `Mary`, y el argumento `a` es tambien el átomo `Mary`.
     
 -----------------
 
@@ -512,7 +512,7 @@ No responde,
 Es `(eq? (car l) (car (cdr l)))` verdad o falso cuano `l` es `(frijoles frijoles necesitamos frijoles dulces)`
 
 Verdad,
-    porque es un comparación de el primer y segundo atomos en la lista.
+    porque es un comparación de el primer y segundo átomos en la lista.
 
 -----------------
 
