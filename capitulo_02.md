@@ -705,7 +705,7 @@ Que es el valor de `(miembro? a lat)` cuando `a` es `carne` y `lat` es `(papa pu
 
 -----------------
 
-Que es el valor de `(miembro? a lat)` cuando `a` es `hidago` y `lat` es `(pan y salmon)`
+Que es el valor de `(miembro? a lat)` cuando `a` es `hígado` y `lat` es `(pan y salmon)`
 
 #f.
 
@@ -725,7 +725,7 @@ No. Vamos a la proxima linea.
 
 `else`
 
-Sí, pero `(eq? (car lat) a)` es falso. Hace recusión con `a` y `(cdr lat)`. Esa vez `a` es `higado` y `(cdr lat)` es `(y salmon)`.
+Sí, pero `(eq? (car lat) a)` es falso. Hace recusión con `a` y `(cdr lat)`. Esa vez `a` es `hígado` y `(cdr lat)` es `(y salmon)`.
 
 -----------------
 
@@ -737,7 +737,7 @@ No. Vamos a la proxima linea.
 
 `else`
 
-Sí, pero `(eq? (car lat) a)` es falso. Hace recursión con `a` y `(cdr lat)`. Esa vez `a` es `hidago` y `(cdr lat)` es `(salmon)`.
+Sí, pero `(eq? (car lat) a)` es falso. Hace recursión con `a` y `(cdr lat)`. Esa vez `a` es `hígado` y `(cdr lat)` es `(salmon)`.
 
 -----------------
 
@@ -749,7 +749,7 @@ No. Vamos a la proxima linea.
 
 `else`
 
-Sí, pero `(eq? (car lat) a)` es todavia falso. Hace recursión con `a` y `(cdr lat)`. Esa vez `a` es `hidago` y `(cdr lat)` es `()`.
+Sí, pero `(eq? (car lat) a)` es todavia falso. Hace recursión con `a` y `(cdr lat)`. Esa vez `a` es `hígado` y `(cdr lat)` es `()`.
 
 -----------------
 
@@ -759,7 +759,7 @@ Sí.
 
 -----------------
 
-Que es el valor de `(miembro? a lat)` cuando `a` es `hidago` y `lat` es `()`.
+Que es el valor de `(miembro? a lat)` cuando `a` es `hígado` y `lat` es `()`.
 
 `#f`
 
@@ -770,31 +770,14 @@ Que es el valor de
 (or (eq? (car lat) a)
     (miembro? a (cdr lat)))
 ```
-cuando `a` es `hidago` y `lat` es `(salmon)`
+cuando `a` es `hígado` y `lat` es `(salmon)`
 
 `#f`
 
 -----------------
 
 
-Que es el valor de `(miembro? a lat)` cuando `a` es `hidago` y `lat` es `(salmon)`.
-
-`#f`
-
------------------
-
-Que es el valor de
-```
-(or (eq? (car lat) a)
-    (miembro? a (cdr lat)))
-```
-cuando `a` es `hidago` y `lat` es `(y salmon)`
-
-`#f`
-
------------------
-
-Que es el valor de `(miembro? a lat)` cuando `a` es `hidago` y `lat` es `(y salmon)`.
+Que es el valor de `(miembro? a lat)` cuando `a` es `hígado` y `lat` es `(salmon)`.
 
 `#f`
 
@@ -805,22 +788,33 @@ Que es el valor de
 (or (eq? (car lat) a)
     (miembro? a (cdr lat)))
 ```
-cuando `a` es `hidago` y `lat` es `(pan y salmon)`
+cuando `a` es `hígado` y `lat` es `(y salmon)`
 
 `#f`
 
 -----------------
 
-Que es el valor de `(miembro? a lat)` cuando `a` es `hidago` y `lat` es `(pan y salmon)`.
+Que es el valor de `(miembro? a lat)` cuando `a` es `hígado` y `lat` es `(y salmon)`.
 
 `#f`
 
 -----------------
 
-¿Creas en todo eso? Entonces puedes descansar!
+Que es el valor de
+```
+(or (eq? (car lat) a)
+    (miembro? a (cdr lat)))
+```
+cuando `a` es `hígado` y `lat` es `(pan y salmon)`
 
+`#f`
 
+-----------------
 
+Que es el valor de `(miembro? a lat)` cuando `a` es `hígado` y `lat` es `(pan y salmon)`.
 
+`#f`
 
+-----------------
 
+¿Crees en todo eso? Entonces puedes descansar!

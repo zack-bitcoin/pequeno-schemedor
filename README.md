@@ -22,5 +22,5 @@ Table de contentos
 
 [Capitulo 2: Hacelo, Hacelo otra vez, y otra vez, y otra vez...](capitulo_02.md)
 
-[Capitulo 3: Hacelo, Cons lo Magnífico](capitulo_03.md)
+[Capitulo 3: Cons lo Magnífico](capitulo_03.md)
 
